@@ -18,7 +18,7 @@
 > **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 > 辻慎也・荒井隆行（上智大学）, *3D printable tools for vocal tract models*, 2026.  
 > https://github.com/Tsutchy011/3d-printable_tools_vocal_tract_models
-
+>
 > なお本アタッチメントの一部は、上智大学荒井研究室が公開する声道模型 VTM-T20 に
 > 対応するよう設計したものです。VTM-T20 本体のデータは上記のリンクよりダウンロードできます。<br>
 > その利用については APD の利用条件に従ってください。
