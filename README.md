@@ -13,7 +13,7 @@
 - 関連:
   - [Acoustic-Phonetics Demonstrations (APD)](https://splab.net/apd/)
   - [日本語5母音の声道模型（VTM-T20）](https://splab.net/apd/v100/)
-  - [このページのモデルが使える教科書（最新言語聴覚講座 音響学）](https://store.isho.jp/search/detail/productId/2607204890)
+  - [本モデルが対応している教科書（最新言語聴覚講座 音響学）](https://store.isho.jp/search/detail/productId/2607204890)
 
 > **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 > 辻慎也・荒井隆行（上智大学）, *3D printable tools for vocal tract models*, 2026.  
