@@ -15,8 +15,8 @@
   - [日本語5母音の声道模型（VTM-T20）](https://splab.net/apd/v100/)
   - [このページのモデルが使える教科書（最新言語聴覚講座 音響学）](https://store.isho.jp/search/detail/productId/2607204890)
 
-> ライセンス: **CC BY 4.0**
-> 辻慎也・荒井隆行（上智大学）, "3D printable tools for vocal tract models", 2026.
+> **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+> 辻慎也・荒井隆行（上智大学）, *3D printable tools for vocal tract models*, 2026.  
 > https://github.com/Tsutchy011/3d-printable_tools_vocal_tract_models
 
 > なお本アタッチメントの一部は、上智大学荒井研究室が公開する声道模型 VTM-T20 に
