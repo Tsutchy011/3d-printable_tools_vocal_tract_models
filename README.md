@@ -15,7 +15,7 @@
   - [日本語5母音の声道模型（VTM-T20）](https://splab.net/apd/v100/)
   - [本モデルが対応している教科書（最新言語聴覚講座 音響学）](https://store.isho.jp/search/detail/productId/2607204890)
 
-> **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+> **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)（全文は [LICENSE](LICENSE)）  
 > 辻慎也・荒井隆行（上智大学）, *3D printable tools for vocal tract models*, 2026.  
 > https://github.com/Tsutchy011/3d-printable_tools_vocal_tract_models
 >
@@ -70,7 +70,8 @@
 |---|---|---|
 | `02_リード式音源/reed_type_sound_source_ID20mm_S3T.stl` | **スライド式3音響管用** の音源部分本体です。 | `リード式音源部分_2パターンで出力.scad` (`"20MM"`) |
 | `02_リード式音源/reed_type_sound_source_ID10mm_VTM.stl` | **VTM-T20用** の音源部分本体です。 | 同上 (`"10MM"`) |
-| `02_リード式音源/reed_fixing_part_200μm.stl` | **リードの厚み0.2 mm 用** のリード固定パーツです。 | `リード部分.scad` (`reed_thickness = 0.2`) |
+| `02_リード式音源/reed_fixing_part_100μm.stl` | **リードの厚み0.1 mm 用** のリード固定パーツです。 | `リード部分.scad` (`reed_thickness = 0.1`) |
+| `02_リード式音源/reed_fixing_part_200μm.stl` | **リードの厚み0.2 mm 用** のリード固定パーツです。 | 同上 (`reed_thickness = 0.2`) |
 | `02_リード式音源/reed_fixing_part_300μm.stl` | **リードの厚み0.3 mm 用** のリード固定パーツです。 | 同上 (`reed_thickness = 0.3`) |
 
 ### 2-3. リード裁断用の治具・リードケース
@@ -126,6 +127,7 @@
 - スリット高は `reed_thickness + slot_vertical_clearance`（既定 0.05 mm）です。
   **シートが入らない場合は `slot_vertical_clearance` を 0.05 → 0.1 に増やして**ください。
 - 逆にリードがすぐ抜ける場合はこの値を 0 に近づけます。
+- 0.1 mm 用はスリットが 0.15 mm と細いため、スライス後のプレビューでスリットが消えていないか確認してから印刷してください。
 
 ### リード裁断治具 `reed_cutter.stl`
 - 長辺 **195 mm** です。造形範囲がこれより小さいプリンタでは、
@@ -163,7 +165,7 @@ eufyMake Studio 3Dでは、デフォルトの設定で問題なく印刷でき�
    その後、小さい方の器具により長さ 30 mmになるよう切っていきます。
    切ったリードはリードケースに保管できます。
 2. **リード固定パーツにリードを差し込む** — 1. のシート厚に対応するパーツ
-   （0.2 mm 用 / 0.3 mm 用）のスリットにリードを差し込みます。
+   （0.1 mm 用 / 0.2 mm 用 / 0.3 mm 用）のスリットにリードを差し込みます。
 3. **音源カプセルに挿入する** — 固定パーツを音源本体のリード室に押し込みます。
 4. **声道模型に接続する** — VTM-T20 なら 10 mm 用、スライド式3音響管なら 20 mm 用の
    本体を使います。
@@ -191,3 +193,10 @@ America and Acoustical Society of Japan にて開催された、音声生成の�
 ワークショップで用いられた教材から発想を得ました。
 3Dプリンタの運用・リード式音源の印刷などに関して、鈴木良平氏、渡邊梨子氏に
 ご助言をいただきました。
+
+## 8. 更新履歴
+
+- **v1.1.0**（2026-10-29）
+  - リードの厚み 0.1 mm 用のリード固定パーツ（`02_リード式音源/reed_fixing_part_100μm.stl`）を追加
+  - ライセンス本文（CC BY 4.0）を `LICENSE` として追加
+- **v1.0.0**（2026-09-06）: 初版公開
