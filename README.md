@@ -196,6 +196,7 @@ America and Acoustical Society of Japan にて開催された、音声生成の�
 
 ## 8. 更新履歴
 
+- **v1.1.1**（2026-11-19）: Zenodo に登録して DOI を付けるための情報（`.zenodo.json`）を追加（モデルのファイルは v1.1.0 と同じ）
 - **v1.1.0**（2026-10-29）
   - リードの厚み 0.1 mm 用のリード固定パーツ（`02_リード式音源/reed_fixing_part_100μm.stl`）を追加
   - ライセンス本文（CC BY 4.0）を `LICENSE` として追加

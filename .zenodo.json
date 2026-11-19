@@ -1,0 +1,38 @@
+{
+  "title": "3D printable tools for vocal tract models",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Tsuji, Shinya",
+      "affiliation": "Sophia University"
+    },
+    {
+      "name": "Arai, Takayuki",
+      "affiliation": "Sophia University"
+    }
+  ],
+  "description": "<p>声道模型を用いた音響教育（音源フィルタ理論のデモンストレーション・実習）のために作成した、3Dプリンタで印刷可能なモデル一式です。上智大学 荒井研究室「音響音声学デモンストレーション（Acoustic-Phonetics Demonstrations; APD）」で公開されている日本語5母音の声道模型（VTM-T20）に対応するリード式音源・ケースのほか、スライド式3音響管とそれに対応するリード式音源、リードを切り出すための治具などのアタッチメントを収録しています。</p><p>A set of 3D-printable models for acoustics education using vocal tract models (demonstrations and hands-on practice of the source-filter theory). It includes reed sound sources and cases for the Japanese five-vowel vocal tract models (VTM-T20) published in the Acoustic-Phonetics Demonstrations (APD) of the Arai Laboratory, Sophia University, as well as a sliding three-tube model with its reed source and attachments such as jigs for cutting reeds.</p>",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "vocal tract model",
+    "3D printing",
+    "acoustic phonetics",
+    "source-filter theory",
+    "acoustics education",
+    "speech-language-hearing therapist education",
+    "声道模型",
+    "3Dプリンタ",
+    "音響教育"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://splab.net/apd/",
+      "relation": "references"
+    },
+    {
+      "identifier": "https://splab.net/apd/v100/",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "notes": "出典 / Source: 辻慎也, 荒井隆行, 「3Dプリンタを活用した音響教育のための教材作成 ——言語聴覚士養成コースでの取り組み事例——」, 日本音響学会講演論文集, Sep. 2026."
+}
