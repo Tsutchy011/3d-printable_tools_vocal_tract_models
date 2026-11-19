@@ -1,5 +1,7 @@
 # 3D printable tools for vocal tract models
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24364038.svg)](https://doi.org/10.5281/zenodo.24364038)
+
 声道模型を用いた音響教育（音源フィルタ理論のデモンストレーション・実習）のために作成した、
 3Dプリンタで印刷可能なモデル一式です。
 
@@ -16,7 +18,8 @@
   - [本モデルが対応している教科書（最新言語聴覚講座 音響学）](https://store.isho.jp/search/detail/productId/2607204890)
 
 > **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)（全文は [LICENSE](LICENSE)）  
-> 辻慎也・荒井隆行（上智大学）, *3D printable tools for vocal tract models*, 2026.  
+> 辻慎也・荒井隆行（上智大学）, *3D printable tools for vocal tract models*, Zenodo, 2026.  
+> https://doi.org/10.5281/zenodo.24364038  
 > https://github.com/Tsutchy011/3d-printable_tools_vocal_tract_models
 >
 > なお本アタッチメントの一部は、上智大学荒井研究室が公開する声道模型 VTM-T20 に
@@ -183,6 +186,14 @@ eufyMake Studio 3Dでは、デフォルトの設定で問題なく印刷でき�
 ```
 辻慎也, 荒井隆行, "3Dプリンタを活用した音響教育のための教材作成
 ——言語聴覚士養成コースでの取り組み事例——", 日本音響学会講演論文集, Sep. 2026.
+```
+
+モデルのデータそのものを引用する場合は、Zenodo の DOI をお使いください。
+全バージョン共通の DOI で、いつも最新版に案内されます（各版の DOI は Zenodo のページで確認できます）。
+
+```
+辻慎也, 荒井隆行, "3D printable tools for vocal tract models", Zenodo, 2026.
+https://doi.org/10.5281/zenodo.24364038
 ```
 
 ## 7. 謝辞
